@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.container{
+    background: linear-gradient(125deg, #fae450, #3cfd23);
+    text-align: center;
+    display: block;
+    margin: 100px auto 0;
+    padding: 50px;
+    height: 400px;
+    max-width: 570px;
+}
+.container h1{
+    font-size: 50px;
+    padding: 20px;
+
+}
+.clock{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.clock input{
+    padding: 20px;
+    border: 0;
+    height: 120px;
+    width: 120px;
+    font-size: 80px;
+    background-color: #cdd851;
+    color: black;
+}
+#Hours,
+#Minutes,
+#Seconds{
+    height: 100px;
+    width: 100px;
+    background: #f3f391;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
